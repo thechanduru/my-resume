@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#pic{
+    width: 300px;
+    height: 400px;
+    transform: translate(700px,-400px);
+}
+
+a{
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(71, 209, 117, 0.6);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #df05a8;
+}
+
+
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #df05a8;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #df05a8;
+    border: 2px solid #df05a8;
+    transform: translate(150px,-350px);
+}
+.btn:hover{
+    background: transparent;
+    border-color: #df05a8;
+    color: #df05a8;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content .title{
+    color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    /*-webkit-background-clip: text;*/
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: #df05a8;
+}
+.content p{
+    width: 55%;
+    color: #757575;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#about{
+    color: blue;
+    background-color: coral;
+    text-align: center;
+
+}
+#me{
+    background-color: rgb(228, 6, 228);
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#e{
+    text-align:center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifar;
+    background-color: coral;
+    color: blue;
+}
+#skillcontainer{
+    text-align:center ;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(228, 6, 228);
+    
+}
+    
+#image{
+    width: 300px;
+    height:300px;
+    transform: translate(950px,-400px);
+}
+#RESUME{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: coral;
+    color:rgb(255, 6, 68);
+}
+#yes{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 110, 252);
+    transform: translate(700px,-500px);
+
+}
+#no{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: coral;
+    color: blue
+}
+#CONTACT{
+    text-align:center ;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 6, 228);
+
+}
+#r{
+    text-align:center;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: coral;
+    color:blue ;
+}
+#detail{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(228, 6, 228);
+}
+#B{
+    width: 250px;
+    height: 50px; 
+    font-size: 25px;
+}
+#C{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+}
+#t{
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+}
+#submit{
+    font-size: 30px;
+    border:black;
+    color:rgb(250, 250, 250);
+    background-color: rgb(0, 34, 128);
+    width:300px;
+    height: 50px;
+}
